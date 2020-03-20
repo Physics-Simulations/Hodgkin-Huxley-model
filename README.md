@@ -62,6 +62,14 @@ As we can see the pulsing intensity is ![\nu=0](https://render.githubusercontent
         
 The statistical errors made in the measurements of the pulsating frequency is represented with a red shaded area. However, their values are so small that they can't be seen.
 
+Now we can do the same calculation but starting from a high input current value:
+
+![Frequency vs Intensity](Results/Freq_350_150.png)
+
+By computing the spiking frequency starting from a high input current intensity value and decreasing it we observe that the threshold for the excitability of the neuron has shifted to ![I\sim177\mathrm{pA}](https://render.githubusercontent.com/render/math?math=I%5Csim177%5Cmathrm%7BpA%7D). By plotting both results simultaneously we see that the neurons perform a kind of hysteresis loop.
+
+![Hysteresis](Results/Histeresis.png)
+
 # References
 1. [Wikipedia](https://en.wikipedia.org/wiki/Hodgkin%E2%80%93Huxley_model)
 2. [W. Gerstner lectures](https://icwww.epfl.ch/~gerstner/VideoLecturesGerstner.html)
